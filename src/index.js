@@ -25,8 +25,6 @@ module.exports = function (opts) {
                   };
                   ret.argument.openingElement.attributes.push(cls);
                 }
-                console.log(displayName);
-                // elem type is string
                 cls.value.value = `${cls.value.value} $${displayName}`;
               }
             }

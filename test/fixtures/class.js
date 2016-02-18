@@ -1,27 +1,3 @@
-import React from 'react';
-
-// export class Foo {
-//   static propTypes = {
-
-//   };
-//   render() {
-//     return (
-//       <div className="bar">
-//         <div>foo</div>
-//       </div>
-//     );
-//   }
-// }
-
-// export class Bar {
-//   render() {
-//     return (
-//       <Foo />
-//     );
-//   }
-// }
-
-
 export default class Button extends Component {
   static propTypes = {
     content: PropTypes.string,

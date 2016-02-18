@@ -3,7 +3,6 @@ var babel = require('babel-core');
 var plugin =  require('../src/index.js');
 
 // var f = __dirname + '/fixtures/button.js';
-// var f = __dirname + '/fixtures/button.js';
 var f = __dirname + '/fixtures/class.js';
 
 var output = babel.transformFileSync(f, {
